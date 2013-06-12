@@ -14,7 +14,7 @@ pick.onsuccess = function () {
 	 f.readAsText(this.result.blob); 
 	 f.onload = function(evt) {
 	 alert("File received successfully.");
-	 sec.innerHTML=evt.target.result;
+	 sec.innerHTML=sec.innerHTML+""+evt.target.result;
 	 }
 };
  

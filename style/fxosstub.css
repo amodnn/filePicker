@@ -134,6 +134,7 @@ header li:active {
 	  overflow:auto;
 	  left:0;
 	  right:0;
+	  overflow-x: hidden;
 }
 	
 #glasspane {
@@ -174,10 +175,12 @@ footer {
   background:linear-gradient(top,#6a7b86 0%,#424f5a 100%);
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6a7b86',endColorstr='#424f5a',GradientType=0);
   color: #fff;
-  position: absolute;
+  position: fixed;
   width:100%;
   height:5rem;
   bottom:0;
+   z-index:110;
+
 }
 
 footer ul {
