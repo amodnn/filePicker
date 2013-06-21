@@ -1,18 +1,17 @@
 {
   "version": "0.0.01",
   "name": "FilePicker",
-  "launch_path": "http://amodnn.github.io/filePicker/index.html",
+  "launch_path": "/index.html",
   "description": "The most simple stub for FXOS apps",
   "icons": {
-    "16": "/filePicker/applogos/logo16.png",
-    "32": "/filePicker/applogos/logo32.png",
-    "48": "/filePicker/applogos/logo48.png",
-    "64": "/filePicker/applogos/logo64.png",
-    "128": "/filePicker/applogos/logo128.png"
+    "16": "/applogos/logo16.png",
+    "32": "/applogos/logo32.png",
+    "48": "/applogos/logo48.png",
+    "64": "/applogos/logo64.png",
+    "128": "/applogos/logo128.png"
   },
   "developer": {
     "name": "Amod Narvekar",
-    "url": "http://github.com/amodnn/filePicker/"
-  },
+    "url": "/index.html",
   "default_locale": "en"
-}
+}}

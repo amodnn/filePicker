@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <link rel="stylesheet" type="text/css" href="style/fxosstub.css"/>
+   <script type="text/javascript" src="js/fxosstub.js"></script>
+   <script type="text/javascript" src="js/pickDemo.js"></script>
+   <title>FilePicker</title>
+</head>
+<body>
+
+   <header>
+     <button id="btnMain"></button>
+     <ul id="install-add">
+        <li><button id="btnInstall">Install</button></li>
+        <!--<li><button id="btnAdd"></button></li>-->
+     </ul>
+     <h1>AppTitle</h1>
+   </header>
+
+   <div class="body">
+     <!-- <div class="textEntry">
+         <textarea id="textContents" placeholder="Type it!"></textarea>
+      </div>-->
+	    <section contenteditable="true" id='contentE'>
+    <h2> Pick HTML files or Images </h2>
+    <p> Clicks the buttons of your choice </p>
+    <ol>
+      <li> Contents of the file will be displayed here</li>
+      <li> Images will be appended here </li>
+      <li> three items    </li>
+    </ol>
+  </section>
+   </div>
+
+   
+   <!--<div id="glasspane">
+      <div id="title">Glass Pane Title</div>
+      <div id="msg">Message in the glass pane (for notifications, etc)</div>
+   </div>-->
+   
+
+   <footer>
+      <ul>
+        <li><button onclick="pickFile()">Pick HTML</button></li>
+        <li><button onclick="pickImageFile()">Pick Image</button></li>
+      </ul>
+   </footer>
+
+</body>
+</html>
