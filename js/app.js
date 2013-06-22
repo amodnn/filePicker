@@ -26,26 +26,24 @@ define(function(require) {
 	var list1 = $('.list1').get(0);
 	//alert($('.list').get(0));
     list.add({ 
-			   title: 'Learn this template',
+			   title: 'Apps',
                desc: 'This is a list-detail template. Learn more ' +
                      'about it at its ' +
                      '<a href="https://github.com/mozilla/mortar-list-detail">project page!</a>',
                date: new Date() });
-    list.add({ title: 'Make things',
+    list.add({ title: 'Music',
                desc: 'Make this look like that',
                date: new Date(12, 9, 5) });
-    for(var i=0; i<8; i++) {
-        list.add({ title: 'Move stuff',
-                   desc: 'Move this over there',
-                   date: new Date(12, 10, 1) });
-    }
-	
-	list1.add({ 
-			   title: 'Learn this template',
-               desc: 'This is a list-detail template. Learn more ' +
-                     'about it at its ' +
-                     '<a href="https://github.com/mozilla/mortar-list-detail">project page!</a>',
-               date: new Date() });
+    list.add({ title: 'Pictures',
+               desc: 'Make this look like that',
+               date: new Date(12, 9, 5) });
+    list.add({ title: 'sdcard',
+               desc: 'Make this look like that',
+               date: new Date(12, 9, 5) });
+    list.add({ title: 'videos',
+               desc: 'Make this look like that',
+               date: new Date(12, 9, 5) });
+			   
 	
 	
 	
