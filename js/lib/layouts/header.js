@@ -61,7 +61,7 @@ define(function(require) {
     Header.prototype.addBack = function() {
         var nav = $('.navitems.left', this.el);
         var _this = this;
-
+		//alert(nav.children().length);
         if(!nav.children().length) {
             var back = $('<button class="back">Back</button>');
             nav.append(back);

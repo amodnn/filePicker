@@ -27,26 +27,16 @@ define(function(require) {
 	//alert($('.list').get(0));
     list.add({ 
 			   title: 'Apps',
-               desc: 'This is a list-detail template. Learn more ' +
-                     'about it at its ' +
-                     '<a href="https://github.com/mozilla/mortar-list-detail">project page!</a>',
-               date: new Date() });
-    list.add({ title: 'Music',
-               desc: 'Make this look like that',
-               date: new Date(12, 9, 5) });
-    list.add({ title: 'Pictures',
-               desc: 'Make this look like that',
-               date: new Date(12, 9, 5) });
-    list.add({ title: 'sdcard',
-               desc: 'Make this look like that',
-               date: new Date(12, 9, 5) });
+			});
+    list.add({ title: 'Music', });
+    list.add({ title: 'Pictures', });
+    list.add({ title: 'sdcard', });
     list.add({ title: 'videos',
                desc: 'Make this look like that',
                date: new Date(12, 9, 5) });
-			   
-	
-	
-	
+	list.add({ title: 'Pick Image', });
+	list.add({ title: 'Pick HTML', });
+	//list.addList();
 
     // Detail view
 

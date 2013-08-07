@@ -7,7 +7,6 @@ define(function(require) {
 
     function initTag(tag) {
         var view = tag.view;
-
         if($(tag).data('first') == 'true') {
             view.parent.clearStack();
             view.open(null, 'instant');
@@ -84,7 +83,7 @@ define(function(require) {
                 this.view.options.renderRow = func;
             },
             nextView: function(sel) {
-                this.view.options.nextView = sel;
+                this.view.options.nextView = sel; 
             },
             collection: function(col) {
                 this.view.collection = col;
@@ -97,6 +96,9 @@ define(function(require) {
             add: function(item) {
                 this.view.collection.add(item);
             },
+			addList: function(){
+			//addList will add a new list.
+			},
             open: function(model, anim) {
                 this.view.open(model, anim);
             },
