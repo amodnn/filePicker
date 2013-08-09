@@ -1,0 +1,37 @@
+{
+  "name": "FilePicker",
+  "description": "Gaia Chronometer Example App",
+  "type": "certified",
+  "launch_path": "/index.html",
+  "appcache_path": "/manifest.appcache",
+  "developer": {
+    "name": "Luca Greco <luca.greco@alcacoop.it>",
+    "url": "http://alcacoop.github.com/gaia-chrono-app"
+  },
+  "installs_allowed_from": ["*"],
+  "locales": {
+    "en-US": {
+      "name": "File Picker",
+      "description": "Gaia Chronometer Example App"
+    },
+    "it": {
+      "name": "Cronometro",
+      "description": "Applicazione di Esempio Cronometro per Gaia"
+    }   
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "128": "/icons/chrono-128.png",
+    "64": "/icons/chrono-64.png",
+    "120": "/icons/chrono-120.png",
+    "60": "/icons/chrono-60.png"
+  },
+ "permissions": {
+    "device-storage:pictures":{ "access": "readonly" },
+    "device-storage:music":{ "access": "readonly" },
+    "device-storage:videos":{ "access": "readonly" },
+    "device-storage:sdcard":{ "access": "readonly" },
+    "device-storage:apps":{ "access": "readonly" }
+  },
+  "orientation": "portrait"
+}
