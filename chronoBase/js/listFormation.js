@@ -1,18 +1,17 @@
 
 function appList()
-{/*
-var pics = navigator.getDeviceStorage('pictures');
-
+{
+alert('entered');
+var pics = navigator.getDeviceStorage('My Pictures');
 // Let's browse all the images available
 var cursor = pics.enumerate();
 
 cursor.onsuccess = function () {
   var file = this.result;
-  console.log("File found: " + file.name);
+  alert("File found: " + file.name);
 
   // Once we found a file we check if there is other results
   if (!this.done) {
-  console.log("done");
     // Then we move to the next result, which call the cursor
     // success with the next file as result.
     this.continue();
@@ -20,20 +19,7 @@ cursor.onsuccess = function () {
 }
 
 cursor.onerror = function () {
-  console.warn("No file found: " + this.error);
-}*/
-
-var sdcard = navigator.getDeviceStorage('sdcard');
-
-var request = sdcard.get("Chrono.exe");
-
-request.onsuccess = function () {
-  var file = this.result;
-  console.log("Get the file: " + file.name);
-}
-
-request.onerror = function () {
-  console.warn("Unable to get the file: " + this.error);
+  alert("No file found: " + this.error);
 }
 }
 
